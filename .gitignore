@@ -1,0 +1,6 @@
+alerts/eve.json
+alerts/fast.log
+logs/conn.log
+logs/http.log
+logs/files.log
+logs/packet_filter.log

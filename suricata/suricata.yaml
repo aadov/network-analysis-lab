@@ -1,0 +1,63 @@
+%YAML 1.1
+---
+vars:
+  address-groups:
+    HOME_NET: "[172.23.0.0/24]"
+    EXTERNAL_NET: "!$HOME_NET"
+  port-groups:
+    HTTP_PORTS: "80"
+    SHELLCODE_PORTS: "!80"
+
+default-log-dir: /var/log/suricata/
+
+outputs:
+  - eve-log:
+      enabled: yes
+      filetype: regular
+      filename: eve.json
+      types:
+        - alert:
+            payload: yes
+            payload-printable: yes
+            packet: yes
+        - http:
+            extended: yes
+        - dns:
+            query: yes
+            answer: yes
+        - tls:
+            extended: yes
+        - flow
+        - stats:
+            totals: yes
+
+  - fast:
+      enabled: yes
+      filename: fast.log
+      append: yes
+
+af-packet:
+  - interface: br-d5305e450180
+    cluster-id: 99
+    cluster-type: cluster_flow
+    defrag: yes
+
+pcap:
+  - interface: br-d5305e450180
+
+default-rule-path: /etc/suricata/rules
+
+rule-files:
+  - local.rules
+
+app-layer:
+  protocols:
+    http:
+      enabled: yes
+    dns:
+      enabled: yes
+    tls:
+      enabled: yes
+
+legacy:
+  uricontent: enabled

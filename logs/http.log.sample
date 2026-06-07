@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2026-06-07-10-15-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1780827350.373257	CFY2HR2v5xERckN9bc	172.23.0.3	35348	172.23.0.2	80	1	GET	172.23.0.2	/vulnerabilities/sqli/?id=1+union+select+1,2--&Submit=Submit	-	1.1	curl/8.19.0	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1780827394.030691	CBDiQ74BVt0faBUmqb	172.23.0.3	32790	172.23.0.2	80	1	GET	172.23.0.2	/vulnerabilities/sqli/?id=1+union+select+1,2--&Submit=Submit	-	1.1	curl/8.19.0	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1780827394.038617	CaODL8382IgQAIwBcl	172.23.0.3	32798	172.23.0.2	80	1	GET	172.23.0.2	/vulnerabilities/sqli/?id=1+or+1=1--&Submit=Submit	-	1.1	curl/8.19.0	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1780827394.046728	CwCshG4SvxRetqv5v4	172.23.0.3	32802	172.23.0.2	80	1	GET	172.23.0.2	/vulnerabilities/xss_r/?name=<script>alert(1)</script>	-	1.1	curl/8.19.0	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1780827394.054042	CWyaVS3bWV2BWOoSQg	172.23.0.3	32818	172.23.0.2	80	1	GET	172.23.0.2	/vulnerabilities/fi/?page=../../../etc/passwd	-	1.1	curl/8.19.0	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1780827394.061899	C0Mav64aZQVJaDXu8h	172.23.0.3	32822	172.23.0.2	80	1	POST	172.23.0.2	/vulnerabilities/exec/	-	1.1	curl/8.19.0	-	42	0	302	Found	-	-	(empty)	-	-	-	FeJ5Ym3T82rccnFnra	-	text/plain	-	-	-
+1780827394.070573	Cyoxp64ihqOXPRAYC1	172.23.0.3	32830	172.23.0.2	80	1	POST	172.23.0.2	/login.php	-	1.1	curl/8.19.0	-	41	0	302	Found	-	-	(empty)	-	-	-	FnBYH73xZhTk1e1yVa	-	text/plain	-	-	-
+1780827394.097200	Cw41cA4jnlDepzraZi	172.23.0.3	32846	172.23.0.2	80	1	POST	172.23.0.2	/login.php	-	1.1	curl/8.19.0	-	41	0	302	Found	-	-	(empty)	-	-	-	FMf3Kd3yMaCHzzd03	-	text/plain	-	-	-
+1780827394.107806	CgckXT31v7QBMbfH2	172.23.0.3	32856	172.23.0.2	80	1	POST	172.23.0.2	/login.php	-	1.1	curl/8.19.0	-	41	0	302	Found	-	-	(empty)	-	-	-	F19HYy2g6mxXCwPOAa	-	text/plain	-	-	-
+1780827394.118745	CSgOzoYMfj0G7m0ee	172.23.0.3	32872	172.23.0.2	80	1	POST	172.23.0.2	/login.php	-	1.1	curl/8.19.0	-	41	0	302	Found	-	-	(empty)	-	-	-	Fc8KG53aP5iM2d1zpg	-	text/plain	-	-	-
+1780827394.129190	CR5ou03MWvxRmlswXj	172.23.0.3	32874	172.23.0.2	80	1	POST	172.23.0.2	/login.php	-	1.1	curl/8.19.0	-	41	0	302	Found	-	-	(empty)	-	-	-	FFLHjQ34wllRgCNki8	-	text/plain	-	-	-

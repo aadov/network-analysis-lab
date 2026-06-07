@@ -1,0 +1,33 @@
+06/07/2026-10:09:13.800343  [**] [1:1000003:2] ET WEB_SPECIFIC XSS Attempt - script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:45170 -> 172.23.0.2:80
+06/07/2026-10:09:13.713400  [**] [1:1000001:2] ET WEB_SPECIFIC SQL Injection - UNION SELECT [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:45164 -> 172.23.0.2:80
+06/07/2026-10:09:13.713400  [**] [1:1000002:2] ET WEB_SPECIFIC SQL Injection - union+select [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:45164 -> 172.23.0.2:80
+06/07/2026-10:09:13.808467  [**] [1:1000004:2] ET WEB_SPECIFIC Directory Traversal ../ [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:45178 -> 172.23.0.2:80
+06/07/2026-10:09:13.808467  [**] [1:1000005:2] ET WEB_SPECIFIC Directory Traversal etc passwd [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:45178 -> 172.23.0.2:80
+06/07/2026-10:09:53.874034  [**] [1:1000001:2] ET WEB_SPECIFIC SQL Injection - UNION SELECT [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:42878 -> 172.23.0.2:80
+06/07/2026-10:09:53.874034  [**] [1:1000002:2] ET WEB_SPECIFIC SQL Injection - union+select [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:42878 -> 172.23.0.2:80
+06/07/2026-10:09:53.952998  [**] [1:1000003:2] ET WEB_SPECIFIC XSS Attempt - script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:42882 -> 172.23.0.2:80
+06/07/2026-10:09:53.961173  [**] [1:1000004:2] ET WEB_SPECIFIC Directory Traversal ../ [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:42892 -> 172.23.0.2:80
+06/07/2026-10:09:53.961173  [**] [1:1000005:2] ET WEB_SPECIFIC Directory Traversal etc passwd [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:42892 -> 172.23.0.2:80
+06/07/2026-10:10:47.659531  [**] [1:1000001:2] ET WEB_SPECIFIC SQL Injection - UNION SELECT [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:37074 -> 172.23.0.2:80
+06/07/2026-10:10:47.659531  [**] [1:1000002:2] ET WEB_SPECIFIC SQL Injection - union+select [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:37074 -> 172.23.0.2:80
+06/07/2026-10:10:47.728357  [**] [1:1000004:2] ET WEB_SPECIFIC Directory Traversal ../ [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:37082 -> 172.23.0.2:80
+06/07/2026-10:10:47.728357  [**] [1:1000005:2] ET WEB_SPECIFIC Directory Traversal etc passwd [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:37082 -> 172.23.0.2:80
+06/07/2026-10:11:26.465855  [**] [1:1000001:2] ET WEB_SPECIFIC SQL Injection - UNION SELECT [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:46024 -> 172.23.0.2:80
+06/07/2026-10:11:26.465855  [**] [1:1000002:2] ET WEB_SPECIFIC SQL Injection - union+select [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:46024 -> 172.23.0.2:80
+06/07/2026-10:11:26.473194  [**] [1:1000004:2] ET WEB_SPECIFIC Directory Traversal ../ [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:46036 -> 172.23.0.2:80
+06/07/2026-10:11:26.473194  [**] [1:1000005:2] ET WEB_SPECIFIC Directory Traversal etc passwd [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:46036 -> 172.23.0.2:80
+06/07/2026-10:13:01.556558  [**] [1:1000001:2] ET WEB_SPECIFIC SQL Injection - UNION SELECT [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:47940 -> 172.23.0.2:80
+06/07/2026-10:13:01.556558  [**] [1:1000002:2] ET WEB_SPECIFIC SQL Injection - union+select [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:47940 -> 172.23.0.2:80
+06/07/2026-10:13:01.633737  [**] [1:1000004:2] ET WEB_SPECIFIC Directory Traversal ../ [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:47946 -> 172.23.0.2:80
+06/07/2026-10:13:01.633737  [**] [1:1000005:2] ET WEB_SPECIFIC Directory Traversal etc passwd [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:47946 -> 172.23.0.2:80
+06/07/2026-10:14:34.213961  [**] [1:1000001:2] ET WEB_SPECIFIC SQL Injection - UNION SELECT [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:33562 -> 172.23.0.2:80
+06/07/2026-10:14:34.213961  [**] [1:1000002:2] ET WEB_SPECIFIC SQL Injection - union+select [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:33562 -> 172.23.0.2:80
+06/07/2026-10:15:50.374979  [**] [1:1000001:2] ET WEB_SPECIFIC SQL Injection - UNION SELECT [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:35348 -> 172.23.0.2:80
+06/07/2026-10:15:50.374979  [**] [1:1000002:2] ET WEB_SPECIFIC SQL Injection - union+select [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:35348 -> 172.23.0.2:80
+06/07/2026-10:16:34.032118  [**] [1:1000001:2] ET WEB_SPECIFIC SQL Injection - UNION SELECT [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:32790 -> 172.23.0.2:80
+06/07/2026-10:16:34.032118  [**] [1:1000002:2] ET WEB_SPECIFIC SQL Injection - union+select [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:32790 -> 172.23.0.2:80
+06/07/2026-10:16:34.055554  [**] [1:1000004:2] ET WEB_SPECIFIC Directory Traversal ../ [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:32818 -> 172.23.0.2:80
+06/07/2026-10:16:34.055554  [**] [1:1000005:2] ET WEB_SPECIFIC Directory Traversal etc passwd [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:32818 -> 172.23.0.2:80
+06/07/2026-10:16:34.048041  [**] [1:1000003:2] ET WEB_SPECIFIC XSS Attempt - script tag [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:32802 -> 172.23.0.2:80
+06/07/2026-10:16:34.063893  [**] [1:1000006:2] ET WEB_SPECIFIC Command Injection passwd [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.23.0.3:32822 -> 172.23.0.2:80
+06/07/2026-10:16:34.122916  [**] [1:1000007:2] ET WEB_SPECIFIC Brute Force Login POST [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.23.0.3:32872 -> 172.23.0.2:80

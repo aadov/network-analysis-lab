@@ -1,0 +1,33 @@
+networks:
+  network-lab:
+    external: true
+
+services:
+  suricata:
+    image: jasonish/suricata:latest
+    container_name: suricata
+    network_mode: host
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+      - SYS_NICE
+    volumes:
+      - ./suricata/suricata.yaml:/etc/suricata/suricata.yaml
+      - ./suricata/rules:/etc/suricata/rules
+      - ./alerts:/var/log/suricata
+    command: -i br-d5305e450180 --init-errors-fatal
+    restart: unless-stopped
+
+  zeek:
+    image: zeek/zeek:latest
+    container_name: zeek
+    network_mode: host
+    working_dir: /usr/local/zeek/logs/current
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    volumes:
+      - ./zeek/local.zeek:/usr/local/zeek/share/zeek/site/local.zeek
+      - ./logs:/usr/local/zeek/logs/current
+    entrypoint: ["/usr/local/zeek/bin/zeek", "-C", "-i", "br-d5305e450180", "/usr/local/zeek/share/zeek/site/local.zeek"]
+    restart: unless-stopped
