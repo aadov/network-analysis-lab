@@ -11,6 +11,7 @@ Hands-on network traffic analysis lab using Suricata IDS and Zeek NSM to detect 
 - **WSL2 Ubuntu 24.04** - lab environment
 
 ## Architecture
+```
 [attacker container] --> [network-lab: 172.23.0.0/24] --> [DVWA 172.23.0.2:80]
 |
 [br-d5305e450180 bridge interface]
@@ -20,6 +21,7 @@ signature alerts            protocol logs
 alerts/fast.log            logs/http.log
 alerts/eve.json            logs/conn.log
 
+```
 ## Methodology
 
 1. Create isolated Docker network (172.23.0.0/24)
